@@ -1,0 +1,12 @@
+package homework;
+
+public class ERERERER {
+	public static void main(String[] args) {
+		
+		int a = 5;
+		char b = (char)5;
+		int c = (int)b;
+		
+	
+	}
+}

@@ -1,0 +1,22 @@
+package homework;
+import java.util.Scanner;
+public class Homework_p20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//P20
+		char y = 'Y', R = 'r';
+		System.out.println(y);
+		System.out.println(R);
+		
+		//P21
+		System.out.print("입력하고자 하는 소문자값의 숫자를 작성하시오 : ");
+		Scanner type = new Scanner(System.in);
+		int value = type.nextInt();
+		char value2 = (char)value;
+		
+		
+	}
+
+}

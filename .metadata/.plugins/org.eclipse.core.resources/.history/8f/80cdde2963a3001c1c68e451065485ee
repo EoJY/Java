@@ -1,0 +1,23 @@
+package if_ifelse;
+
+public class P4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a= 5, b = 15; int c = 10;	
+		
+		if (a >10) 
+		{
+			System.out.println("a="+a);
+			
+		}
+		
+		else (c>a&c<b);
+		{
+			System.out.println("c="+c);
+			
+		}
+	
+	}
+
+}

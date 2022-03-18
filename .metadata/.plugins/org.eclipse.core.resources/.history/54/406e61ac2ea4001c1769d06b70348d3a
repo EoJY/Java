@@ -1,0 +1,22 @@
+package if_ifelse;
+import java.util.Scanner;
+public class Exam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int x=2; 에서 x값이 짝수인지 홀수 인지 판단하는 프로그램을 작성하시오
+		Scanner abc = new Scanner(System.in);
+		System.out.println("x의 값을 입력해주세요.");
+		int x = abc.nextInt();
+		if (x % 2 == 0)
+		{
+			System.out.println("짝수");
+		}
+		else
+		{
+			System.out.println("홀수");
+		}
+	
+	}
+
+}

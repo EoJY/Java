@@ -1,0 +1,14 @@
+package EX;
+
+public class P70 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(7^5);
+		System.out.println(Integer.toBinaryString((int)10));
+		int x = 100
+		System.out.println(Integer.toBinaryString(x));		
+
+	}
+
+}

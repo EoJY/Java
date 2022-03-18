@@ -1,0 +1,15 @@
+package EX;
+
+public class P80 {
+
+	public static void main(String[] args) {
+	int x = -10;
+	int absX = x >= 0 ? x:-x;
+	System.out.println(absX);
+	
+	
+	
+	
+	}
+	
+}

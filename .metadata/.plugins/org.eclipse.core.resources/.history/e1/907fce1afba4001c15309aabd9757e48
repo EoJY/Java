@@ -1,0 +1,28 @@
+package homework;
+
+public class Homework_p37 {
+	public static void main(String[] args) {
+		
+		
+		int a = 1;
+		System.out.println("월요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("화요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("수요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("목요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("금요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("토요일에 닭장에 있는 알의 개수는 :"+a);
+		a++;//
+		System.out.println("일요일에 닭장에 있는 알의 개수는 :"+a);
+		
+		
+		System.out.println("화요일에 닭장에 있는 알의 개수는 :"+(a + a-- + a-- + a-- + a-- + a-- + a--));
+		
+		
+	}
+
+}

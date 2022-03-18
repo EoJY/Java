@@ -1,0 +1,19 @@
+package homework;
+
+public class Homework_p37 {
+	public static void main(String[] args) {
+		
+		
+		int a = 1;
+		int b = a;
+		int c = ++b;
+		int d = ++c;
+		int e = ++d;
+		int f = ++e;
+		int g = ++f++;
+		System.out.println("월요일에 낳는 알의 개수는 :"+a+"\n화요일에 낳는 알의 개수는 :"+b+"\n수요일에 낳는 알의 개수는 :"+c+
+						   "\n목요일에 낳는 알의 개수는 :"+d+"\n금요일에 낳는 알의 개수는 :"+e+"\n토요일에 낳는 알의 개수는 :"+f+
+						   "\n일요일에 낳는 알의 개수는 :"+g);
+	}
+
+}

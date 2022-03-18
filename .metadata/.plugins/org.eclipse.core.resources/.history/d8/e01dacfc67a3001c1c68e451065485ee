@@ -1,0 +1,23 @@
+package if_ifelse;
+
+public class Exam_no_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 만약 젠더값이 2 라면 여자라고 출력되도록 해주세요
+		int gender = 2;
+		
+		if(gender==2) 
+		{
+			System.out.println("여자");
+		}
+		else
+		{
+			System.out.println("남자");
+		}	
+	
+	
+	
+	}
+
+}

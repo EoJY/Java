@@ -1,0 +1,25 @@
+package if_ifelse;
+
+import java.util.Scanner;
+
+
+public class Exam_Scanner_no_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("성적을 입력해 주세요 : ");
+		Scanner carot = new Scanner(System.in);
+		int a = carot.nextInt();
+		
+		if (a >= 90)
+		{
+			System.out.println("합격");
+		}
+		else
+		{
+			System.out.println("불합격");
+		}
+		
+	}
+
+}

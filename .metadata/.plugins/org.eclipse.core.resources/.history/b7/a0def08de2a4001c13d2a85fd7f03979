@@ -1,0 +1,16 @@
+package homework;
+
+public class Snippet {
+	public static void main(String[] args) {
+		dic = {}
+		dic['한국인 선수'] = '손흥민'
+		dic['중국인 선수'] = '없음'
+		dic['일본인 선수'] = '나카무라'
+		dic['베트남 선수'] = '응우엔'
+		dic['영국 선수'] = '웨인 루니'
+		dic['프랑스 선수'] = '앙리'
+		dic['포르투갈 선수'] = '호날두'
+		dic['아르헨티나 선수'] = '메시'
+	}
+}
+
